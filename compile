@@ -1,0 +1,2 @@
+#!/bin/sh
+gcc -std=c99 -O2 render_map.c libvxl.c lodepng.c cli.c -o render_map -lm
